@@ -1,7 +1,7 @@
 import css from "./SearchBox.module.css";
 
 interface SearchBoxProps {
-  value: string; // Додаємо цей пропс
+  value: string; 
   onChange: (value: string) => void;
 }
 
