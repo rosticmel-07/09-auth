@@ -15,7 +15,7 @@ export default function SearchBox({ value, onChange }: SearchBoxProps) {
         id="search"
         className={css.input}
         type="text"
-        value={value} // Робимо інпут керованим
+        value={value} 
         placeholder="Search notes..."
         onChange={(e) => onChange(e.target.value)}
       />
